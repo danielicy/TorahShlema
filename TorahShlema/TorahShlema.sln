@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TorahShlema", "TorahShlema\TorahShlema.csproj", "{ECA23979-8AED-4144-9F3E-330298FA47BE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Utilities", "Utilities", "{79E2090C-636F-4668-9C1D-BD3DCAB14DF8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HtmlParser", "HtmlParser\HtmlParser.csproj", "{DF31A587-F4D2-42CA-8122-38496EFC3FE3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ECA23979-8AED-4144-9F3E-330298FA47BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ECA23979-8AED-4144-9F3E-330298FA47BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ECA23979-8AED-4144-9F3E-330298FA47BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ECA23979-8AED-4144-9F3E-330298FA47BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DF31A587-F4D2-42CA-8122-38496EFC3FE3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF31A587-F4D2-42CA-8122-38496EFC3FE3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF31A587-F4D2-42CA-8122-38496EFC3FE3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF31A587-F4D2-42CA-8122-38496EFC3FE3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{DF31A587-F4D2-42CA-8122-38496EFC3FE3} = {79E2090C-636F-4668-9C1D-BD3DCAB14DF8}
+	EndGlobalSection
+EndGlobal
