@@ -31,16 +31,30 @@ namespace HtmlParser
                 var loadedDoc = doc.Load(file);
                 var html = loadedDoc.DocumentNode.InnerHtml;
 
-                HtmlNodeCollection nodeCollection = loadedDoc.DocumentNode.SelectNodes("//b");
+                HtmlNodeCollection nodeCollection = loadedDoc.DocumentNode.SelectNodes("//p/text()");
 
-                foreach (HtmlNode node in nodeCollection)
+                string chapteNumberr;
+                string verseNumber;
+                string verse;
+
+                if (nodeCollection != null)
                 {
-                   
+                    foreach (HtmlNode node in nodeCollection)
+                    {
+                      
+                        try {
+                        chapteNumberr = node.PreviousSibling.InnerText.Split(',')[0];
+                        verseNumber = node.PreviousSibling.InnerText.Split(',')[1];
+                            verse = node.InnerText.Replace("\n", "");
+                                }
+                        catch { }
+
+                    }
 
                 }
 
 
-                  }
+            }
 
                 return 0;
         }
