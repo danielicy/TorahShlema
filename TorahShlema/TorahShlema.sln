@@ -9,6 +9,12 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Utilities", "Utilities", "{
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HtmlParser", "HtmlParser\HtmlParser.csproj", "{DF31A587-F4D2-42CA-8122-38496EFC3FE3}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Common", "Common", "{89210977-7975-43F8-B8B3-29D78BFEC8F4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TorahShlema.Models", "TorahShlema.Models\TorahShlema.Models.csproj", "{D20C5191-B01D-4254-BE4E-B59493FC8E60}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EllisWeb.Gematria", "..\..\..\..\Source\Repos\Gematria\EllisWeb.Gematria\EllisWeb.Gematria.csproj", "{A83F03D9-305A-4D4C-8133-342B29258C67}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -23,11 +29,21 @@ Global
 		{DF31A587-F4D2-42CA-8122-38496EFC3FE3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DF31A587-F4D2-42CA-8122-38496EFC3FE3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DF31A587-F4D2-42CA-8122-38496EFC3FE3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D20C5191-B01D-4254-BE4E-B59493FC8E60}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D20C5191-B01D-4254-BE4E-B59493FC8E60}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D20C5191-B01D-4254-BE4E-B59493FC8E60}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D20C5191-B01D-4254-BE4E-B59493FC8E60}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A83F03D9-305A-4D4C-8133-342B29258C67}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A83F03D9-305A-4D4C-8133-342B29258C67}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A83F03D9-305A-4D4C-8133-342B29258C67}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A83F03D9-305A-4D4C-8133-342B29258C67}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{DF31A587-F4D2-42CA-8122-38496EFC3FE3} = {79E2090C-636F-4668-9C1D-BD3DCAB14DF8}
+		{D20C5191-B01D-4254-BE4E-B59493FC8E60} = {89210977-7975-43F8-B8B3-29D78BFEC8F4}
+		{A83F03D9-305A-4D4C-8133-342B29258C67} = {79E2090C-636F-4668-9C1D-BD3DCAB14DF8}
 	EndGlobalSection
 EndGlobal
